@@ -18,7 +18,7 @@ type Redis struct {
 // RedisOpts redis 连接属性
 type RedisOpts struct {
 	Host        string `json:"host"         yml:"host"`
-	Username    string `json:"username"                        yaml:"username"`
+	Username    string `json:"username"     yml:"username"`
 	Password    string `json:"password"     yml:"password"`
 	Database    int    `json:"database"     yml:"database"`
 	MaxIdle     int    `json:"max_idle"     yml:"max_idle"`
